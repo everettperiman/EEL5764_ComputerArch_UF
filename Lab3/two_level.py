@@ -92,7 +92,7 @@ system.mem_ctrl.port = system.membus.mem_side_ports
 
 # Setting up and running an example program on the "System"
 # First we have to create the command we want to run
-binary = 'hello'
+binary = 'matmult.out'
 
 # for gem5 V21 and beyond
 system.workload = SEWorkload.init_compatible(binary)

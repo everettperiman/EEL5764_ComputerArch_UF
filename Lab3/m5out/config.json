@@ -264,7 +264,7 @@
                     "name": "workload",
                     "path": "system.cpu.workload",
                     "cmd": [
-                        "hello"
+                        "matmult.out"
                     ],
                     "cwd": "/home/tux/UF/CompArch/Labs/EEL5764_ComputerArch_UF/Lab3",
                     "drivers": [],
