@@ -71,13 +71,6 @@ if options.lq_entries:
 if options.rob_entries:
     system.cpu.numROBEntries = options.rob_entries
 
-print("DEBUGGING ONLY")
-print(system.cpu.numIQEntries)
-print(system.cpu.LQEntries)
-print(system.cpu.numROBEntries)
-
-
-
 """
 Inserting the new cache code here
 """
